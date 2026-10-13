@@ -1,0 +1,28 @@
+.wake-rough-screen { color: #fff; background: #e8f3fc; }
+.rough-landscape { position: absolute; left: -35px; top: 0; display: block; width: 471px; height: 1022px; object-fit: cover; pointer-events: none; }
+.rough-dog-crop { position: absolute; left: 55px; top: 488px; width: 264px; height: 236px; overflow: hidden; pointer-events: none; }
+.rough-dog-crop img { position: absolute; left: -90px; top: 0; display: block; width: 354px; height: 236px; max-width: none; }
+.rough-card { position: absolute; left: 17px; top: 36px; width: 372px; height: 288px; overflow: hidden; border: 1px solid rgba(255,255,255,.84); border-radius: 15px; background: rgba(255,255,255,.15); -webkit-backdrop-filter: blur(11px) saturate(108%); backdrop-filter: blur(11px) saturate(108%); }
+.rough-warm-tint { position: absolute; left: 0; top: 0; display: block; width: 372px; height: 288px; pointer-events: none; }
+.rough-eyebrow { position: absolute; left: 50px; top: 17px; width: 272px; height: 23px; margin: 0; color: #fff; font: 400 13px/23px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: 1.8px; text-align: center; white-space: nowrap; }
+.rough-title { position: absolute; left: 39px; top: 39px; width: 294px; margin: 0; color: #010d37; font: 500 30px/35px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
+.rough-reassurance { position: absolute; left: 39px; top: 119px; width: 294px; margin: 0; color: #404040; font: 400 18px/23px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.rough-divider { position: absolute; left: 27px; top: 165px; width: 318px; height: 1px; background: rgba(255,255,255,.85); }
+.rough-continuity-heading { position: absolute; left: 27px; top: 176px; width: 177px; color: #073276; font: 400 11.5px/22px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: .65px; white-space: nowrap; }
+.rough-awake-label { position: absolute; left: 211.5px; top: 173px; transform: translateX(-50%); color: #032369; font: 400 9.4px/11px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.rough-waveform { position: absolute; left: 44px; top: 191px; display: block; width: 282px; height: 61px; pointer-events: none; }
+.rough-sun { position: absolute; left: 328px; top: 214px; display: block; width: 30px; height: 30px; pointer-events: none; }
+.rough-moon { position: absolute; left: 24.7px; top: 218.7px; display: block; width: 27.5564px; height: 27.5564px; transform: rotate(45deg); pointer-events: none; }
+.rough-awake-halo { position: absolute; display: block; width: 14px; height: 14px; pointer-events: none; }
+.rough-awake-point { position: absolute; display: block; width: 18px; height: 18px; pointer-events: none; }
+.rough-awake-halo--one { left: 110px; top: 208px; }
+.rough-awake-point--one { left: 108px; top: 206px; }
+.rough-awake-halo--two { left: 202px; top: 196px; }
+.rough-awake-point--two { left: 200px; top: 194px; }
+.rough-awake-halo--three { left: 279px; top: 210px; }
+.rough-awake-point--three { left: 277px; top: 208px; }
+.rough-time-start, .rough-time-end { position: absolute; top: 255px; color: #041a64; font: 500 10.3px/15px "PingFang SC", Roboto, Arial, sans-serif; white-space: nowrap; }
+.rough-time-start { left: 27px; }
+.rough-time-end { right: 25px; text-align: right; }
+.rough-primary { position: absolute; left: 72px; top: 733px; width: 262px; height: 44px; display: flex; align-items: center; justify-content: center; border: 1.1px solid rgba(59,160,255,.96); border-radius: 22px; color: #fff; background: rgba(3,69,121,.2); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); box-shadow: 0 0 8px #0072ff; font: 500 22px/31px "PingFang SC", Roboto, Arial, sans-serif; }
+.rough-data-link { position: absolute; left: 45px; top: 790px; width: 321px; height: 33px; display: flex; align-items: center; justify-content: center; color: #fff; font: 400 15px/21px "PingFang SC", Roboto, Arial, sans-serif; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }

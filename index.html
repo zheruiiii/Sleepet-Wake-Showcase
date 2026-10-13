@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#87acc9">
-  <title>Sleepet · Medium Night Wake-up</title>
+  <title>Sleepet · Wake-up Showcase</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./rough.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
-  <main class="showcase-shell" aria-label="Animated medium-night wake-up screen">
-    <section class="phone wake-medium-screen is-entering" aria-labelledby="wake-title">
+  <main class="showcase-shell" aria-label="Sleepet wake-up showcase">
+    <section class="phone wake-medium-screen is-entering" id="medium-screen" aria-labelledby="wake-title">
       <video class="wake-scene-video" id="wake-scene-video" autoplay muted loop playsinline preload="auto" poster="./assets/wake-medium-poster.jpg" aria-hidden="true">
         <source src="./assets/wake-medium-video.mp4" type="video/mp4">
       </video>
@@ -27,8 +28,34 @@
           <span class="wake-time-end">6:48 AM</span>
         </div>
       </div>
-      <div class="wake-primary" aria-hidden="true">Wake up</div>
+      <button class="wake-primary" id="wake-next" type="button">Wake up</button>
       <div class="wake-data-link" aria-hidden="true">Check last night’s sleep data</div>
+    </section>
+    <section class="phone wake-rough-screen" id="rough-screen" aria-labelledby="rough-title" hidden>
+      <img class="rough-landscape" src="./assets/rough/landscape.png" alt="">
+      <div class="rough-dog-crop" aria-hidden="true"><img src="./assets/rough/mocha.png" alt=""></div>
+      <div class="rough-card">
+        <img class="rough-warm-tint" src="./assets/rough/warm-glass-tint.svg" alt="">
+        <p class="rough-eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 class="rough-title" id="rough-title">Last night was a<br>little rough.</h1>
+        <p class="rough-reassurance">Take today gently. I’m here.</p>
+        <span class="rough-divider" aria-hidden="true"></span>
+        <span class="rough-continuity-heading">SLEEP CONTINUITY</span>
+        <span class="rough-awake-label">Briefly awake<br>3:46 AM</span>
+        <img class="rough-waveform" src="./assets/rough/restless-waveform.svg" alt="">
+        <img class="rough-moon" src="./assets/rough/moon-icon.svg" alt="">
+        <img class="rough-sun" src="./assets/rough/sunrise-icon.svg" alt="">
+        <img class="rough-awake-halo rough-awake-halo--one" src="./assets/rough/awake-halo.svg" alt="">
+        <img class="rough-awake-point rough-awake-point--one" src="./assets/rough/awake-point.svg" alt="">
+        <img class="rough-awake-halo rough-awake-halo--two" src="./assets/rough/awake-halo.svg" alt="">
+        <img class="rough-awake-point rough-awake-point--two" src="./assets/rough/awake-point.svg" alt="">
+        <img class="rough-awake-halo rough-awake-halo--three" src="./assets/rough/awake-halo.svg" alt="">
+        <img class="rough-awake-point rough-awake-point--three" src="./assets/rough/awake-point.svg" alt="">
+        <span class="rough-time-start">12:03 AM</span>
+        <span class="rough-time-end">6:18 AM</span>
+      </div>
+      <div class="rough-primary" aria-hidden="true">Wake up</div>
+      <div class="rough-data-link" aria-hidden="true">Check last night’s sleep data</div>
     </section>
   </main>
 </body>

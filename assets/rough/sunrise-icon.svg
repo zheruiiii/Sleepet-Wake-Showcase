@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Sunrise icon" clip-path="url(#clip0_0_6)">
+<g id="Group">
+<g id="Vector">
+<path d="M15 1V5ZM15 25V29ZM1 15H5ZM25 15H29ZM5.1 5.1L7.9 7.9ZM22.1 22.1L24.9 24.9ZM24.9 5.1L22.1 7.9ZM7.9 22.1L5.1 24.9Z" fill="black"/>
+<path d="M15 1V5M15 25V29M1 15H5M25 15H29M5.1 5.1L7.9 7.9M22.1 22.1L24.9 24.9M24.9 5.1L22.1 7.9M7.9 22.1L5.1 24.9" stroke="#FFFDF1" stroke-width="1.6" stroke-linecap="round"/>
+</g>
+</g>
+<path id="Vector_2" d="M15 22.5C19.1421 22.5 22.5 19.1421 22.5 15C22.5 10.8579 19.1421 7.5 15 7.5C10.8579 7.5 7.5 10.8579 7.5 15C7.5 19.1421 10.8579 22.5 15 22.5Z" fill="#FFFDF4"/>
+</g>
+<defs>
+<clipPath id="clip0_0_6">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>

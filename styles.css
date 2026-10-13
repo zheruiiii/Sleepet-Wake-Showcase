@@ -34,3 +34,5 @@ body { background: #1b3857; font-family: "PingFang SC", Roboto, Arial, sans-seri
 @keyframes reveal { from { opacity: 0; transform: translateY(12px); filter: blur(2px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
 @media (max-width: 460px) { .phone { border-radius: 0; outline: 0; box-shadow: none; } }
 @media (prefers-reduced-motion: reduce) { .is-entering :is(.wake-scene-video, .wake-summary-card, .wake-eyebrow, h1, .wake-reassurance, .wake-continuity, .wake-primary, .wake-data-link) { animation: none; } }
+.phone[hidden] { display: none; }
+button.wake-primary { padding: 0; cursor: pointer; }

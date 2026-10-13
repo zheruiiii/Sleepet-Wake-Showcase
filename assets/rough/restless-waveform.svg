@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="282" height="61" viewBox="0 0 282 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Restless sleep waveform" filter="url(#filter0_d_0_10)">
+<g clip-path="url(#clip0_0_10)">
+<path id="Vector" d="M6 47H29C34 47 36 43 39 35C42 29 45 29 48 39C50 46 54 47 61 47H64C66 47 68 36 70 28C72 22 76 22 78 36C80 45 82 47 88 47H101C105 47 106 38 109 35C112 31 114 45 117 45C120 45 121 34 124 34C127 34 128 44 131 44C134 44 135 32 138 32C141 32 140 47 145 47H154C157 47 159 41 162 16C164 6 167 6 169 21C172 43 173 47 181 47H186C189 47 191 40 194 40C197 40 198 47 203 47H207C210 47 212 39 215 39C218 39 219 47 224 47H230C233 47 236 43 238 28C240 22 245 22 247 34C249 44 251 47 258 47" stroke="#EDF9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6 47H29C34 47 36 43 39 35C42 29 45 29 48 39C50 46 54 47 61 47H64C66 47 68 36 70 28C72 22 76 22 78 36C80 45 82 47 88 47H101C105 47 106 38 109 35C112 31 114 45 117 45C120 45 121 34 124 34C127 34 128 44 131 44C134 44 135 32 138 32C141 32 140 47 145 47H154C157 47 159 41 162 16C164 6 167 6 169 21C172 43 173 47 181 47H186C189 47 191 40 194 40C197 40 198 47 203 47H207C210 47 212 39 215 39C218 39 219 47 224 47H230C233 47 236 43 238 28C240 22 245 22 247 34C249 44 251 47 258 47" stroke="#238BFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M258 47H264C267 47 268 41 271 41C273 41 274 47 276 47" stroke="#FFF8E9" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector_4" d="M258 47H264C267 47 268 41 271 41C273 41 274 47 276 47" stroke="#F3BA71" stroke-width="2.1" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_10" x="0" y="-5" width="282" height="71" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.04 0 0 0 0 0.5 0 0 0 0 1 0 0 0 0.62 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_10"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_10" result="shape"/>
+</filter>
+<clipPath id="clip0_0_10">
+<rect width="272" height="61" fill="white" transform="translate(5)"/>
+</clipPath>
+</defs>
+</svg>
