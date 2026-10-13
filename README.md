@@ -9,7 +9,7 @@ This standalone showcase displays three wake-up screens. It is separate from the
 - Select **Wake up** on the rough-night screen to enter the great-night screen. Its landscape and Mocha play in a muted looping 10-second video behind the Figma-based glass card and steady sleep chart.
 - Open https://zheruiiii.github.io/Sleepet-Wake-Showcase/#rough or https://zheruiiii.github.io/Sleepet-Wake-Showcase/#great to view either screen directly.
 
-The controls on the great-night screen are visual elements for the product demo.
+Select **Wake up** on the great-night screen to return to the medium-night screen. The sleep-data labels are visual elements for the product demo.
 
 ## Local preview
 

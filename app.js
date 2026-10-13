@@ -55,6 +55,9 @@ document.querySelector('#wake-next').addEventListener('click', () => {
 document.querySelector('#rough-next').addEventListener('click', () => {
   window.location.hash = 'great';
 });
+document.querySelector('#great-next').addEventListener('click', () => {
+  window.location.hash = 'medium';
+});
 window.addEventListener('resize', fitPhone);
 window.addEventListener('hashchange', showScreen);
 mediumVideo.addEventListener('loadedmetadata', () => {
