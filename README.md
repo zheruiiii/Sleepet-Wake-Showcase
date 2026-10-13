@@ -2,13 +2,14 @@
 
 **Live demo:** https://zheruiiii.github.io/Sleepet-Wake-Showcase/
 
-This standalone showcase displays two wake-up screens. It is separate from the full Sleepet flow.
+This standalone showcase displays three wake-up screens. It is separate from the full Sleepet flow.
 
 - The medium-night screen opens first. Its scenery and Mocha animation play silently at 0.75× speed behind the frosted summary card.
 - Select **Wake up** to enter the rough-night screen. Its landscape and Mocha play in a muted looping 10-second video behind the Figma-based glass card and sleep continuity chart.
-- Open https://zheruiiii.github.io/Sleepet-Wake-Showcase/#rough to view the rough-night screen directly.
+- Select **Wake up** on the rough-night screen to enter the static great-night screen, with its Figma landscape, Mocha illustration, glass card, and steady sleep chart.
+- Open https://zheruiiii.github.io/Sleepet-Wake-Showcase/#rough or https://zheruiiii.github.io/Sleepet-Wake-Showcase/#great to view either screen directly.
 
-The controls on the rough-night screen are visual elements for the product demo.
+The controls on the great-night screen are visual elements for the product demo.
 
 ## Local preview
 

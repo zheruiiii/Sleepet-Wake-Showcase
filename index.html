@@ -7,6 +7,7 @@
   <title>Sleepet · Wake-up Showcase</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./rough.css">
+  <link rel="stylesheet" href="./great.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -55,8 +56,29 @@
         <span class="rough-time-start">12:03 AM</span>
         <span class="rough-time-end">6:18 AM</span>
       </div>
-      <div class="rough-primary" aria-hidden="true">Wake up</div>
+      <button class="rough-primary" id="rough-next" type="button">Wake up</button>
       <div class="rough-data-link" aria-hidden="true">Check last night’s sleep data</div>
+    </section>
+    <section class="phone wake-great-screen" id="great-screen" aria-labelledby="great-title" hidden>
+      <img class="great-landscape-base" src="./assets/great/landscape-base.png" alt="">
+      <div class="great-landscape-overlay" aria-hidden="true"><img src="./assets/great/landscape-overlay.png" alt=""></div>
+      <div class="great-dog-crop" aria-hidden="true"><img src="./assets/great/mocha.png" alt=""></div>
+      <div class="great-card">
+        <img class="great-warm-tint" src="./assets/great/warm-glass-tint.svg" alt="">
+        <p class="great-eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 class="great-title" id="great-title">Good morning.</h1>
+        <p class="great-reassurance">We had a peaceful night.</p>
+        <span class="great-divider" aria-hidden="true"></span>
+        <span class="great-continuity-heading">SLEEP CONTINUITY</span>
+        <span class="great-steady-label">Steady sleep</span>
+        <img class="great-waveform" src="./assets/great/steady-sleep-waveform.svg" alt="">
+        <img class="great-moon" src="./assets/rough/moon-icon.svg" alt="">
+        <img class="great-sun" src="./assets/rough/sunrise-icon.svg" alt="">
+        <span class="great-time-start">11:35 PM</span>
+        <span class="great-time-end">7:04 AM</span>
+      </div>
+      <div class="great-primary" aria-hidden="true">Wake up</div>
+      <div class="great-data-link" aria-hidden="true">Check last night’s sleep data</div>
     </section>
   </main>
 </body>

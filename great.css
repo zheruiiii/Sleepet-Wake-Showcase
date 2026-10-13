@@ -1,0 +1,22 @@
+.wake-great-screen { color: #fff; background: #b4d3ea; }
+.great-landscape-base { position: absolute; left: -32px; top: -58px; display: block; width: 438px; height: 950px; object-fit: cover; pointer-events: none; }
+.great-landscape-overlay { position: absolute; left: -32px; top: 0; width: 438px; height: 948px; overflow: hidden; pointer-events: none; }
+.great-landscape-overlay img { position: absolute; left: 3.78%; top: -0.07%; display: block; width: 100%; height: 100.11%; max-width: none; }
+.great-dog-crop { position: absolute; left: 118px; top: 522px; width: 240px; height: 199px; overflow: hidden; pointer-events: none; }
+.great-dog-crop img { position: absolute; left: -116.27%; top: -101.79%; display: block; width: 259.17%; height: 209.32%; max-width: none; }
+.great-card { position: absolute; left: 17px; top: 36px; width: 372px; height: 288px; overflow: hidden; border: 1px solid rgba(255,255,255,.84); border-radius: 15px; background: rgba(255,255,255,.15); -webkit-backdrop-filter: blur(11px) saturate(108%); backdrop-filter: blur(11px) saturate(108%); }
+.great-warm-tint { position: absolute; left: 0; top: 0; display: block; width: 372px; height: 288px; pointer-events: none; }
+.great-eyebrow { position: absolute; left: 50px; top: 17px; width: 272px; height: 23px; margin: 0; color: #fff; font: 400 13px/23px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: 1.8px; text-align: center; white-space: nowrap; }
+.great-title { position: absolute; left: 39px; top: 44px; width: 294px; margin: 0; color: #010d37; font: 500 30px/35px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
+.great-reassurance { position: absolute; left: 39px; top: 89px; width: 294px; margin: 0; color: #404040; font: 400 18px/23px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.great-divider { position: absolute; left: 27px; top: 158px; width: 318px; height: 1px; background: rgba(255,255,255,.85); }
+.great-continuity-heading { position: absolute; left: 27px; top: 170px; width: 177px; color: #073276; font: 400 11.5px/22px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: .65px; white-space: nowrap; }
+.great-steady-label { position: absolute; left: 186px; top: 207px; transform: translateX(-50%); color: #042c84; font: 400 10px/14px "PingFang SC", Roboto, Arial, sans-serif; white-space: nowrap; }
+.great-waveform { position: absolute; left: 44px; top: 200px; display: block; width: 283px; height: 51px; pointer-events: none; }
+.great-sun { position: absolute; left: 328px; top: 214px; display: block; width: 30px; height: 30px; pointer-events: none; }
+.great-moon { position: absolute; left: 24.7px; top: 218.7px; display: block; width: 27.5564px; height: 27.5564px; transform: rotate(45deg); pointer-events: none; }
+.great-time-start, .great-time-end { position: absolute; top: 256px; color: #041a64; font: 500 10.3px/15px "PingFang SC", Roboto, Arial, sans-serif; white-space: nowrap; }
+.great-time-start { left: 27px; }
+.great-time-end { right: 24px; text-align: right; }
+.great-primary { position: absolute; left: 68px; top: 733px; width: 262px; height: 44px; display: flex; align-items: center; justify-content: center; border: 1.1px solid rgba(59,160,255,.96); border-radius: 22px; color: #fff; background: rgba(3,69,121,.2); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); box-shadow: 0 0 8px #0072ff; font: 500 22px/31px "PingFang SC", Roboto, Arial, sans-serif; }
+.great-data-link { position: absolute; left: 45px; top: 790px; width: 321px; height: 33px; display: flex; align-items: center; justify-content: center; color: #fff; font: 400 15px/21px "PingFang SC", Roboto, Arial, sans-serif; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }

@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="372" height="288" viewBox="0 0 372 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Warm glass tint" clip-path="url(#clip0_0_10)">
+<path id="Vector" d="M357 0H15C6.71573 0 0 6.71573 0 15V273C0 281.284 6.71573 288 15 288H357C365.284 288 372 281.284 372 273V15C372 6.71573 365.284 0 357 0Z" fill="url(#paint0_linear_0_10)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_10" x1="0" y1="0" x2="0" y2="288" gradientUnits="userSpaceOnUse">
+<stop offset="0.36" stop-color="#FFE6CF" stop-opacity="0"/>
+<stop offset="1" stop-color="#FFD9BC" stop-opacity="0.26"/>
+</linearGradient>
+<clipPath id="clip0_0_10">
+<rect width="372" height="288" fill="white"/>
+</clipPath>
+</defs>
+</svg>

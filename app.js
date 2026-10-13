@@ -1,6 +1,7 @@
 const phones = document.querySelectorAll('.phone');
 const medium = document.querySelector('#medium-screen');
 const rough = document.querySelector('#rough-screen');
+const great = document.querySelector('#great-screen');
 const mediumVideo = document.querySelector('#wake-scene-video');
 const roughVideo = document.querySelector('#rough-scene-video');
 
@@ -16,10 +17,11 @@ function playMediumScene() {
 }
 
 function showScreen() {
-  const isRough = window.location.hash === '#rough';
-  const enteringRough = isRough && rough.hidden;
-  medium.hidden = isRough;
-  rough.hidden = !isRough;
+  const scene = window.location.hash === '#rough' ? 'rough' : window.location.hash === '#great' ? 'great' : 'medium';
+  const enteringRough = scene === 'rough' && rough.hidden;
+  medium.hidden = scene !== 'medium';
+  rough.hidden = scene !== 'rough';
+  great.hidden = scene !== 'great';
 
   if (document.hidden) {
     mediumVideo.pause();
@@ -27,18 +29,24 @@ function showScreen() {
     return;
   }
 
-  if (isRough) {
+  if (scene === 'rough') {
     mediumVideo.pause();
     if (enteringRough && roughVideo.readyState >= 1) roughVideo.currentTime = 0;
     roughVideo.play().catch(() => {});
-  } else {
+  } else if (scene === 'medium') {
     roughVideo.pause();
     playMediumScene();
+  } else {
+    mediumVideo.pause();
+    roughVideo.pause();
   }
 }
 
 document.querySelector('#wake-next').addEventListener('click', () => {
   window.location.hash = 'rough';
+});
+document.querySelector('#rough-next').addEventListener('click', () => {
+  window.location.hash = 'great';
 });
 window.addEventListener('resize', fitPhone);
 window.addEventListener('hashchange', showScreen);
