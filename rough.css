@@ -5,6 +5,7 @@
 .rough-eyebrow { position: absolute; left: 50px; top: 17px; width: 272px; height: 23px; margin: 0; color: #fff; font: 400 13px/23px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: 1.8px; text-align: center; white-space: nowrap; }
 .rough-title { position: absolute; left: 39px; top: 39px; width: 294px; margin: 0; color: #010d37; font: 500 30px/35px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
 .rough-reassurance { position: absolute; left: 39px; top: 119px; width: 294px; margin: 0; color: #404040; font: 400 18px/23px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.rough-continuity { position: absolute; inset: 0; pointer-events: none; }
 .rough-divider { position: absolute; left: 27px; top: 165px; width: 318px; height: 1px; background: rgba(255,255,255,.85); }
 .rough-continuity-heading { position: absolute; left: 27px; top: 176px; width: 177px; color: #073276; font: 400 11.5px/22px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: .65px; white-space: nowrap; }
 .rough-awake-label { position: absolute; left: 211.5px; top: 173px; transform: translateX(-50%); color: #032369; font: 400 9.4px/11px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }

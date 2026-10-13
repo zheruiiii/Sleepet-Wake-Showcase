@@ -20,20 +20,19 @@ body { background: #1b3857; font-family: "PingFang SC", Roboto, Arial, sans-seri
 .wake-time-end { right: 38px; }
 .wake-primary { position: absolute; left: 75px; top: 770px; width: 262px; height: 43px; border: 1px solid #fff; border-radius: 22px; color: #fff; background: rgba(3,69,121,.2); box-shadow: 0 0 8px #0072ff; font: 500 22px/31px "PingFang SC", Roboto, Arial, sans-serif; display: flex; align-items: center; justify-content: center; }
 .wake-data-link { position: absolute; left: 45px; top: 821px; width: 321px; height: 33px; color: #fff; background: transparent; font: 400 15px/21px "PingFang SC", Roboto, Arial, sans-serif; text-decoration: underline; text-underline-offset: 2px; text-align: center; }
-.is-entering .wake-scene-video { animation: background-in .5s ease-out both; }
-.is-entering .wake-summary-card { animation: fade-in .52s ease-out both; }
-.is-entering :is(.wake-eyebrow, h1, .wake-reassurance, .wake-continuity, .wake-primary, .wake-data-link) { animation: reveal .48s cubic-bezier(.22,.7,.22,1) var(--flow-delay, 0ms) both; }
-.is-entering .wake-eyebrow { --flow-delay: 30ms; }
-.is-entering h1 { --flow-delay: 100ms; }
-.is-entering .wake-reassurance { --flow-delay: 170ms; }
-.is-entering .wake-continuity { --flow-delay: 260ms; }
-.is-entering .wake-primary { --flow-delay: 700ms; }
-.is-entering .wake-data-link { --flow-delay: 820ms; }
-.button-entering :is(.rough-primary, .great-primary) { animation: reveal .48s cubic-bezier(.22,.7,.22,1) 700ms both; }
+.is-entering .scene-background { animation: background-in .5s ease-out both; }
+.is-entering .scene-card { animation: fade-in .52s ease-out both; }
+.is-entering .scene-reveal { animation: reveal .48s cubic-bezier(.22,.7,.22,1) var(--flow-delay, 0ms) both; }
+.scene-reveal--eyebrow { --flow-delay: 30ms; }
+.scene-reveal--title { --flow-delay: 100ms; }
+.scene-reveal--reassurance { --flow-delay: 170ms; }
+.scene-reveal--continuity { --flow-delay: 260ms; }
+.scene-reveal--primary { --flow-delay: 700ms; }
+.scene-reveal--data-link { --flow-delay: 820ms; }
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes background-in { from { opacity: .68; } to { opacity: 1; } }
 @keyframes reveal { from { opacity: 0; transform: translateY(12px); filter: blur(2px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
 @media (max-width: 460px) { .phone { border-radius: 0; outline: 0; box-shadow: none; } }
-@media (prefers-reduced-motion: reduce) { .is-entering :is(.wake-scene-video, .wake-summary-card, .wake-eyebrow, h1, .wake-reassurance, .wake-continuity, .wake-primary, .wake-data-link), .button-entering :is(.rough-primary, .great-primary) { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .is-entering :is(.scene-background, .scene-card, .scene-reveal) { animation: none; } }
 .phone[hidden] { display: none; }
 button.wake-primary { padding: 0; cursor: pointer; }

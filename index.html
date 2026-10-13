@@ -13,14 +13,14 @@
 <body>
   <main class="showcase-shell" aria-label="Sleepet wake-up showcase">
     <section class="phone wake-medium-screen is-entering" id="medium-screen" aria-labelledby="wake-title">
-      <video class="wake-scene-video" id="wake-scene-video" autoplay muted loop playsinline preload="auto" poster="./assets/wake-medium-poster.jpg" aria-hidden="true">
+      <video class="wake-scene-video scene-background" id="wake-scene-video" autoplay muted loop playsinline preload="auto" poster="./assets/wake-medium-poster.jpg" aria-hidden="true">
         <source src="./assets/wake-medium-video.mp4" type="video/mp4">
       </video>
-      <div class="wake-summary-card">
-        <p class="wake-eyebrow">YOUR NIGHT WITH MOCHA</p>
-        <h1 id="wake-title">Last night had a few<br>restless moments.</h1>
-        <p class="wake-reassurance">Let’s find our rhythm together.</p>
-        <div class="wake-continuity" role="img" aria-label="Sleep continuity from 11:46 PM to 6:48 AM; briefly awake at 3:12 AM">
+      <div class="wake-summary-card scene-card">
+        <p class="wake-eyebrow scene-reveal scene-reveal--eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 class="scene-reveal scene-reveal--title" id="wake-title">Last night had a few<br>restless moments.</h1>
+        <p class="wake-reassurance scene-reveal scene-reveal--reassurance">Let’s find our rhythm together.</p>
+        <div class="wake-continuity scene-reveal scene-reveal--continuity" role="img" aria-label="Sleep continuity from 11:46 PM to 6:48 AM; briefly awake at 3:12 AM">
           <span class="wake-continuity-divider"></span>
           <span class="wake-continuity-heading">SLEEP CONTINUITY</span>
           <img class="wake-continuity-graphic" src="./assets/wake-continuity.svg" alt="">
@@ -29,56 +29,60 @@
           <span class="wake-time-end">6:48 AM</span>
         </div>
       </div>
-      <button class="wake-primary" id="wake-next" type="button">Wake up</button>
-      <div class="wake-data-link" aria-hidden="true">Check last night’s sleep data</div>
+      <button class="wake-primary scene-reveal scene-reveal--primary" id="wake-next" type="button">Wake up</button>
+      <div class="wake-data-link scene-reveal scene-reveal--data-link" aria-hidden="true">Check last night’s sleep data</div>
     </section>
     <section class="phone wake-rough-screen" id="rough-screen" aria-labelledby="rough-title" hidden>
-      <video class="rough-scene-video" id="rough-scene-video" muted loop playsinline preload="metadata" poster="./assets/rough/rough-night-poster.png" aria-hidden="true">
+      <video class="rough-scene-video scene-background" id="rough-scene-video" muted loop playsinline preload="metadata" poster="./assets/rough/rough-night-poster.png" aria-hidden="true">
         <source src="./assets/rough/rough-night-video.mp4" type="video/mp4">
       </video>
-      <div class="rough-card">
+      <div class="rough-card scene-card">
         <img class="rough-warm-tint" src="./assets/rough/warm-glass-tint.svg" alt="">
-        <p class="rough-eyebrow">YOUR NIGHT WITH MOCHA</p>
-        <h1 class="rough-title" id="rough-title">Last night was a<br>little rough.</h1>
-        <p class="rough-reassurance">Take today gently. I’m here.</p>
-        <span class="rough-divider" aria-hidden="true"></span>
-        <span class="rough-continuity-heading">SLEEP CONTINUITY</span>
-        <span class="rough-awake-label">Briefly awake<br>3:46 AM</span>
-        <img class="rough-waveform" src="./assets/rough/restless-waveform.svg" alt="">
-        <img class="rough-moon" src="./assets/rough/moon-icon.svg" alt="">
-        <img class="rough-sun" src="./assets/rough/sunrise-icon.svg" alt="">
-        <img class="rough-awake-halo rough-awake-halo--one" src="./assets/rough/awake-halo.svg" alt="">
-        <img class="rough-awake-point rough-awake-point--one" src="./assets/rough/awake-point.svg" alt="">
-        <img class="rough-awake-halo rough-awake-halo--two" src="./assets/rough/awake-halo.svg" alt="">
-        <img class="rough-awake-point rough-awake-point--two" src="./assets/rough/awake-point.svg" alt="">
-        <img class="rough-awake-halo rough-awake-halo--three" src="./assets/rough/awake-halo.svg" alt="">
-        <img class="rough-awake-point rough-awake-point--three" src="./assets/rough/awake-point.svg" alt="">
-        <span class="rough-time-start">12:03 AM</span>
-        <span class="rough-time-end">6:18 AM</span>
+        <p class="rough-eyebrow scene-reveal scene-reveal--eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 class="rough-title scene-reveal scene-reveal--title" id="rough-title">Last night was a<br>little rough.</h1>
+        <p class="rough-reassurance scene-reveal scene-reveal--reassurance">Take today gently. I’m here.</p>
+        <div class="rough-continuity scene-reveal scene-reveal--continuity" role="img" aria-label="Sleep continuity from 12:03 AM to 6:18 AM; briefly awake at 3:46 AM">
+          <span class="rough-divider" aria-hidden="true"></span>
+          <span class="rough-continuity-heading">SLEEP CONTINUITY</span>
+          <span class="rough-awake-label">Briefly awake<br>3:46 AM</span>
+          <img class="rough-waveform" src="./assets/rough/restless-waveform.svg" alt="">
+          <img class="rough-moon" src="./assets/rough/moon-icon.svg" alt="">
+          <img class="rough-sun" src="./assets/rough/sunrise-icon.svg" alt="">
+          <img class="rough-awake-halo rough-awake-halo--one" src="./assets/rough/awake-halo.svg" alt="">
+          <img class="rough-awake-point rough-awake-point--one" src="./assets/rough/awake-point.svg" alt="">
+          <img class="rough-awake-halo rough-awake-halo--two" src="./assets/rough/awake-halo.svg" alt="">
+          <img class="rough-awake-point rough-awake-point--two" src="./assets/rough/awake-point.svg" alt="">
+          <img class="rough-awake-halo rough-awake-halo--three" src="./assets/rough/awake-halo.svg" alt="">
+          <img class="rough-awake-point rough-awake-point--three" src="./assets/rough/awake-point.svg" alt="">
+          <span class="rough-time-start">12:03 AM</span>
+          <span class="rough-time-end">6:18 AM</span>
+        </div>
       </div>
-      <button class="rough-primary" id="rough-next" type="button">Wake up</button>
-      <div class="rough-data-link" aria-hidden="true">Check last night’s sleep data</div>
+      <button class="rough-primary scene-reveal scene-reveal--primary" id="rough-next" type="button">Wake up</button>
+      <div class="rough-data-link scene-reveal scene-reveal--data-link" aria-hidden="true">Check last night’s sleep data</div>
     </section>
     <section class="phone wake-great-screen" id="great-screen" aria-labelledby="great-title" hidden>
-      <video class="great-scene-video" id="great-scene-video" muted loop playsinline preload="metadata" poster="./assets/great/great-night-poster.png" aria-hidden="true">
+      <video class="great-scene-video scene-background" id="great-scene-video" muted loop playsinline preload="metadata" poster="./assets/great/great-night-poster.png" aria-hidden="true">
         <source src="./assets/great/great-night-video.mp4" type="video/mp4">
       </video>
-      <div class="great-card">
+      <div class="great-card scene-card">
         <img class="great-warm-tint" src="./assets/great/warm-glass-tint.svg" alt="">
-        <p class="great-eyebrow">YOUR NIGHT WITH MOCHA</p>
-        <h1 class="great-title" id="great-title">Good morning.</h1>
-        <p class="great-reassurance">We had a peaceful night.</p>
-        <span class="great-divider" aria-hidden="true"></span>
-        <span class="great-continuity-heading">SLEEP CONTINUITY</span>
-        <span class="great-steady-label">Steady sleep</span>
-        <img class="great-waveform" src="./assets/great/steady-sleep-waveform.svg" alt="">
-        <img class="great-moon" src="./assets/rough/moon-icon.svg" alt="">
-        <img class="great-sun" src="./assets/rough/sunrise-icon.svg" alt="">
-        <span class="great-time-start">11:35 PM</span>
-        <span class="great-time-end">7:04 AM</span>
+        <p class="great-eyebrow scene-reveal scene-reveal--eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 class="great-title scene-reveal scene-reveal--title" id="great-title">Good morning.</h1>
+        <p class="great-reassurance scene-reveal scene-reveal--reassurance">We had a peaceful night.</p>
+        <div class="great-continuity scene-reveal scene-reveal--continuity" role="img" aria-label="Steady sleep from 11:35 PM to 7:04 AM">
+          <span class="great-divider" aria-hidden="true"></span>
+          <span class="great-continuity-heading">SLEEP CONTINUITY</span>
+          <span class="great-steady-label">Steady sleep</span>
+          <img class="great-waveform" src="./assets/great/steady-sleep-waveform.svg" alt="">
+          <img class="great-moon" src="./assets/rough/moon-icon.svg" alt="">
+          <img class="great-sun" src="./assets/rough/sunrise-icon.svg" alt="">
+          <span class="great-time-start">11:35 PM</span>
+          <span class="great-time-end">7:04 AM</span>
+        </div>
       </div>
-      <button class="great-primary" id="great-next" type="button">Wake up</button>
-      <div class="great-data-link" aria-hidden="true">Check last night’s sleep data</div>
+      <button class="great-primary scene-reveal scene-reveal--primary" id="great-next" type="button">Wake up</button>
+      <div class="great-data-link scene-reveal scene-reveal--data-link" aria-hidden="true">Check last night’s sleep data</div>
     </section>
   </main>
 </body>

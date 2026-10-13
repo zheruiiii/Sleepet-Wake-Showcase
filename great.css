@@ -5,6 +5,7 @@
 .great-eyebrow { position: absolute; left: 50px; top: 17px; width: 272px; height: 23px; margin: 0; color: #fff; font: 400 13px/23px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: 1.8px; text-align: center; white-space: nowrap; }
 .great-title { position: absolute; left: 39px; top: 44px; width: 294px; margin: 0; color: #010d37; font: 500 30px/35px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
 .great-reassurance { position: absolute; left: 39px; top: 89px; width: 294px; margin: 0; color: #404040; font: 400 18px/23px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.great-continuity { position: absolute; inset: 0; pointer-events: none; }
 .great-divider { position: absolute; left: 27px; top: 158px; width: 318px; height: 1px; background: rgba(255,255,255,.85); }
 .great-continuity-heading { position: absolute; left: 27px; top: 170px; width: 177px; color: #073276; font: 400 11.5px/22px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: .65px; white-space: nowrap; }
 .great-steady-label { position: absolute; left: 186px; top: 207px; transform: translateX(-50%); color: #042c84; font: 400 10px/14px "PingFang SC", Roboto, Arial, sans-serif; white-space: nowrap; }

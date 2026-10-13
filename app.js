@@ -24,8 +24,7 @@ function showScreen() {
   medium.hidden = scene !== 'medium';
   rough.hidden = scene !== 'rough';
   great.hidden = scene !== 'great';
-  rough.classList.toggle('button-entering', scene === 'rough');
-  great.classList.toggle('button-entering', scene === 'great');
+  for (const phone of phones) phone.classList.toggle('is-entering', !phone.hidden);
 
   if (document.hidden) {
     mediumVideo.pause();
