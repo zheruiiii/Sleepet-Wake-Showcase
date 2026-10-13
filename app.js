@@ -4,6 +4,7 @@ const rough = document.querySelector('#rough-screen');
 const great = document.querySelector('#great-screen');
 const mediumVideo = document.querySelector('#wake-scene-video');
 const roughVideo = document.querySelector('#rough-scene-video');
+const greatVideo = document.querySelector('#great-scene-video');
 
 function fitPhone() {
   const scale = Math.min(1, window.innerWidth / 402, window.innerHeight / 874);
@@ -19,6 +20,7 @@ function playMediumScene() {
 function showScreen() {
   const scene = window.location.hash === '#rough' ? 'rough' : window.location.hash === '#great' ? 'great' : 'medium';
   const enteringRough = scene === 'rough' && rough.hidden;
+  const enteringGreat = scene === 'great' && great.hidden;
   medium.hidden = scene !== 'medium';
   rough.hidden = scene !== 'rough';
   great.hidden = scene !== 'great';
@@ -26,19 +28,24 @@ function showScreen() {
   if (document.hidden) {
     mediumVideo.pause();
     roughVideo.pause();
+    greatVideo.pause();
     return;
   }
 
   if (scene === 'rough') {
     mediumVideo.pause();
+    greatVideo.pause();
     if (enteringRough && roughVideo.readyState >= 1) roughVideo.currentTime = 0;
     roughVideo.play().catch(() => {});
   } else if (scene === 'medium') {
     roughVideo.pause();
+    greatVideo.pause();
     playMediumScene();
   } else {
     mediumVideo.pause();
     roughVideo.pause();
+    if (enteringGreat && greatVideo.readyState >= 1) greatVideo.currentTime = 0;
+    greatVideo.play().catch(() => {});
   }
 }
 
