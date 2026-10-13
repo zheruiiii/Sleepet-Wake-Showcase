@@ -1,7 +1,5 @@
 .wake-rough-screen { color: #fff; background: #e8f3fc; }
-.rough-landscape { position: absolute; left: -35px; top: 0; display: block; width: 471px; height: 1022px; object-fit: cover; pointer-events: none; }
-.rough-dog-crop { position: absolute; left: 55px; top: 488px; width: 264px; height: 236px; overflow: hidden; pointer-events: none; }
-.rough-dog-crop img { position: absolute; left: -90px; top: 0; display: block; width: 354px; height: 236px; max-width: none; }
+.rough-scene-video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; pointer-events: none; }
 .rough-card { position: absolute; left: 17px; top: 36px; width: 372px; height: 288px; overflow: hidden; border: 1px solid rgba(255,255,255,.84); border-radius: 15px; background: rgba(255,255,255,.15); -webkit-backdrop-filter: blur(11px) saturate(108%); backdrop-filter: blur(11px) saturate(108%); }
 .rough-warm-tint { position: absolute; left: 0; top: 0; display: block; width: 372px; height: 288px; pointer-events: none; }
 .rough-eyebrow { position: absolute; left: 50px; top: 17px; width: 272px; height: 23px; margin: 0; color: #fff; font: 400 13px/23px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: 1.8px; text-align: center; white-space: nowrap; }
