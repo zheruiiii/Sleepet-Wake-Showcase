@@ -24,6 +24,8 @@ function showScreen() {
   medium.hidden = scene !== 'medium';
   rough.hidden = scene !== 'rough';
   great.hidden = scene !== 'great';
+  rough.classList.toggle('button-entering', scene === 'rough');
+  great.classList.toggle('button-entering', scene === 'great');
 
   if (document.hidden) {
     mediumVideo.pause();
