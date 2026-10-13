@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#87acc9">
+  <title>Sleepet · Medium Night Wake-up</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="showcase-shell" aria-label="Animated medium-night wake-up screen">
+    <section class="phone wake-medium-screen is-entering" aria-labelledby="wake-title">
+      <video class="wake-scene-video" id="wake-scene-video" autoplay muted loop playsinline preload="auto" poster="./assets/wake-medium-poster.jpg" aria-hidden="true">
+        <source src="./assets/wake-medium-video.mp4" type="video/mp4">
+      </video>
+      <div class="wake-summary-card">
+        <p class="wake-eyebrow">YOUR NIGHT WITH MOCHA</p>
+        <h1 id="wake-title">Last night had a few<br>restless moments.</h1>
+        <p class="wake-reassurance">Let’s find our rhythm together.</p>
+        <div class="wake-continuity" role="img" aria-label="Sleep continuity from 11:46 PM to 6:48 AM; briefly awake at 3:12 AM">
+          <span class="wake-continuity-divider"></span>
+          <span class="wake-continuity-heading">SLEEP CONTINUITY</span>
+          <img class="wake-continuity-graphic" src="./assets/wake-continuity.svg" alt="">
+          <span class="wake-awake-label">Briefly awake<br>3:12 AM</span>
+          <span class="wake-time-start">11:46 PM</span>
+          <span class="wake-time-end">6:48 AM</span>
+        </div>
+      </div>
+      <div class="wake-primary" aria-hidden="true">Wake up</div>
+      <div class="wake-data-link" aria-hidden="true">Check last night’s sleep data</div>
+    </section>
+  </main>
+</body>
+</html>

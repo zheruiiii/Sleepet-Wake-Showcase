@@ -1,0 +1,36 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { width: 100%; min-height: 100%; margin: 0; }
+body { background: #1b3857; font-family: "PingFang SC", Roboto, Arial, sans-serif; }
+.showcase-shell { min-height: 100svh; display: grid; place-items: center; overflow: hidden; }
+.phone { position: relative; width: 402px; height: 874px; overflow: hidden; border-radius: 28px; outline: 1px solid rgba(195,225,244,.3); outline-offset: -1px; background: #87acc9; box-shadow: 0 24px 70px rgba(0,0,0,.45); transform: scale(var(--phone-scale, 1)); }
+.wake-medium-screen { color: #fff; }
+.wake-scene-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; pointer-events: none; }
+.wake-summary-card { position: absolute; z-index: 1; left: 16px; right: 16px; top: 40px; height: 295px; overflow: hidden; border: .5px solid rgba(255,255,255,.72); border-radius: 11px; background: linear-gradient(180deg, rgba(159,189,219,.51) 0%, rgba(217,224,233,.55) 34%, rgba(255,219,190,.58) 65%, rgba(128,149,188,.48) 100%); -webkit-backdrop-filter: blur(3px) saturate(105%); backdrop-filter: blur(3px) saturate(105%); box-shadow: 0 5px 15px rgba(31,55,91,.07); }
+.wake-eyebrow { position: absolute; left: 0; right: 0; top: 19px; margin: 0; color: #fff; font: 400 14px/20px Roboto, Arial, sans-serif; letter-spacing: .15em; text-align: center; }
+.wake-medium-screen h1 { position: absolute; left: 29px; right: 29px; top: 45px; margin: 0; color: #00113f; font: 500 30px/35px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
+.wake-reassurance { position: absolute; left: 18px; right: 18px; top: 123px; margin: 0; color: #404040; font: 400 18px/25px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; white-space: nowrap; }
+.wake-continuity { position: absolute; inset: 0; color: #082e72; }
+.wake-continuity-divider { position: absolute; left: 38px; right: 38px; top: 174px; height: 1px; background: rgba(255,255,255,.84); }
+.wake-continuity-heading { position: absolute; left: 38px; top: 185px; font: 400 13px/19px "PingFang SC", Roboto, Arial, sans-serif; letter-spacing: .045em; white-space: nowrap; }
+.wake-continuity-graphic { position: absolute; left: 27px; top: 211px; display: block; width: calc(100% - 54px); height: 70px; pointer-events: none; }
+.wake-awake-label { position: absolute; left: 222px; top: 199px; width: 89px; color: #001d62; font: 400 10px/11px "PingFang SC", Roboto, Arial, sans-serif; text-align: center; }
+.wake-time-start, .wake-time-end { position: absolute; top: 256px; color: #001d62; font: 500 11px/16px "PingFang SC", Roboto, Arial, sans-serif; white-space: nowrap; }
+.wake-time-start { left: 38px; }
+.wake-time-end { right: 38px; }
+.wake-primary { position: absolute; left: 75px; top: 770px; width: 262px; height: 43px; border: 1px solid #fff; border-radius: 22px; color: #fff; background: rgba(3,69,121,.2); box-shadow: 0 0 8px #0072ff; font: 500 22px/31px "PingFang SC", Roboto, Arial, sans-serif; display: flex; align-items: center; justify-content: center; }
+.wake-data-link { position: absolute; left: 45px; top: 821px; width: 321px; height: 33px; color: #fff; background: transparent; font: 400 15px/21px "PingFang SC", Roboto, Arial, sans-serif; text-decoration: underline; text-underline-offset: 2px; text-align: center; }
+.is-entering .wake-scene-video { animation: background-in .5s ease-out both; }
+.is-entering .wake-summary-card { animation: fade-in .52s ease-out both; }
+.is-entering :is(.wake-eyebrow, h1, .wake-reassurance, .wake-continuity, .wake-primary, .wake-data-link) { animation: reveal .48s cubic-bezier(.22,.7,.22,1) var(--flow-delay, 0ms) both; }
+.is-entering .wake-eyebrow { --flow-delay: 30ms; }
+.is-entering h1 { --flow-delay: 100ms; }
+.is-entering .wake-reassurance { --flow-delay: 170ms; }
+.is-entering .wake-continuity { --flow-delay: 260ms; }
+.is-entering .wake-primary { --flow-delay: 700ms; }
+.is-entering .wake-data-link { --flow-delay: 820ms; }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes background-in { from { opacity: .68; } to { opacity: 1; } }
+@keyframes reveal { from { opacity: 0; transform: translateY(12px); filter: blur(2px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+@media (max-width: 460px) { .phone { border-radius: 0; outline: 0; box-shadow: none; } }
+@media (prefers-reduced-motion: reduce) { .is-entering :is(.wake-scene-video, .wake-summary-card, .wake-eyebrow, h1, .wake-reassurance, .wake-continuity, .wake-primary, .wake-data-link) { animation: none; } }

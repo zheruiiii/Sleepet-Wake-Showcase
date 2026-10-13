@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 70" fill="none">
+  <defs>
+    <filter id="line-glow" x="-12%" y="-65%" width="124%" height="230%">
+      <feGaussianBlur stdDeviation="2.8"/>
+    </filter>
+    <mask id="moon-cutout">
+      <rect width="316" height="70" fill="#fff"/>
+      <circle cx="25" cy="26" r="12" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M32 32H55C61 32 63 27 67 27C73 27 74 32 80 32H89C95 32 97 24 103 24C110 24 111 32 118 32H126C132 32 134 19 138 19C142 19 144 30 148 30C152 30 155 7 159 7C163 7 165 31 169 31C173 31 175 22 179 22C183 22 184 32 188 32C193 32 193 15 197 5C199 0 202 0 204 5C208 20 211 32 220 32H249C256 32 258 25 263 25C268 25 269 32 274 32" stroke="#238DFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".75" filter="url(#line-glow)"/>
+  <path d="M32 32H55C61 32 63 27 67 27C73 27 74 32 80 32H89C95 32 97 24 103 24C110 24 111 32 118 32H126C132 32 134 19 138 19C142 19 144 30 148 30C152 30 155 7 159 7C163 7 165 31 169 31C173 31 175 22 179 22C183 22 184 32 188 32C193 32 193 15 197 5C199 0 202 0 204 5C208 20 211 32 220 32H249C256 32 258 25 263 25C268 25 269 32 274 32" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 32H55C61 32 63 27 67 27C73 27 74 32 80 32H89C95 32 97 24 103 24C110 24 111 32 118 32H126C132 32 134 19 138 19C142 19 144 30 148 30C152 30 155 7 159 7C163 7 165 31 169 31C173 31 175 22 179 22C183 22 184 32 188 32C193 32 193 15 197 5C199 0 202 0 204 5C208 20 211 32 220 32H249" stroke="#2D97FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M229 32H249C256 32 258 25 263 25C268 25 269 32 274 32" stroke="#FFCA77" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="199" cy="5.5" r="6.4" fill="#FFFFFF" stroke="#8BCBFF" stroke-width="2"/>
+  <circle cx="199" cy="5.5" r="3.5" fill="#2D97FF"/>
+  <circle cx="18" cy="26" r="12" fill="#FFFFFF" mask="url(#moon-cutout)"/>
+  <circle cx="296" cy="26" r="7.7" fill="#FFFDF0"/>
+  <path d="M296 11v-4M296 45v-4M281 26h-4M311 26h-4M285 15l-3-3M310 40l-3-3M307 15l3-3M282 40l3-3" stroke="#FFFDF0" stroke-width="1.7" stroke-linecap="round"/>
+</svg>
